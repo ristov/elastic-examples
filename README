@@ -5,6 +5,7 @@ sent from Filebeat to Elasticsearch.
 Note that these configuration files have been tested with Elastic Stack 
 version 7.16.3 and rsyslog version 8.2202.0.
 
+
 For implementing Filebeat->Redis->rsyslog->Elasticsearch message flow,
 have a look into the following configuration files:
 
