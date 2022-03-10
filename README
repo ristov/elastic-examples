@@ -1,0 +1,27 @@
+This repository provides some example configuration files for combining
+Filebeat, Logstash, rsyslog, Redis, and Elasticsearch, so that messages can be
+sent from Filebeat to Elasticsearch.
+
+Note that these configuration files have been tested with Elastic Stack 
+version 7.16.3 and rsyslog version 8.2202.0.
+
+For implementing Filebeat->Redis->rsyslog->Elasticsearch message flow,
+have a look into the following configuration files:
+
+filebeat-output.yml
+rsyslog-redisbeat2elastic.conf
+
+
+For implementing Filebeat->Logstash->Elasticsearch message flow,
+have a look into the following configuration files:
+
+filebeat-output.yml
+logstash-beat2elastic.conf
+
+
+For implementing Filebeat->Logstash->rsyslog->Elasticsearch message flow,
+have a look into the following configuration files:
+
+filebeat-output.yml
+logstash-beat2syslog.conf
+rsyslog-syslogbeat2elastic.conf

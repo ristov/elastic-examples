@@ -1,0 +1,14 @@
+# output example for Logstash
+# note that logstash-ca.pem is used to validate the certificate of Logstash
+
+output.logstash:
+  hosts: ["logstash-server:5044"]
+  ssl.certificate_authorities: ["/etc/filebeat/logstash-ca.pem"]
+
+# output example for redis
+
+output.redis:
+  hosts: ["redis-server:6379"]
+  key: "filebeat"
+  db: 0
+  timeout: 5
