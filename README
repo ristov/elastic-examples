@@ -1,6 +1,6 @@
 This repository provides some example configuration files for combining
-Filebeat, Logstash, rsyslog, Redis, and Elasticsearch, so that messages can be
-sent from Filebeat to Elasticsearch.
+Filebeat, Logstash, rsyslog, Redis, and Elasticsearch, so that messages 
+can be sent from Filebeat to Elasticsearch.
 
 Note that these configuration files have been tested with Elastic Stack 
 version 7.16.3 and rsyslog version 8.2202.0.
