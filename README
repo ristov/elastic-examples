@@ -4,7 +4,8 @@ can be sent from Filebeat to Elasticsearch.
 
 Note that these configuration files have been tested with Elastic Stack 
 version 7.16.3 and rsyslog version 8.2202.0. For Elastic Stack 8.x,
-rsyslog version 8.2206.0 or higher is needed.
+rsyslog version 8.2206.0 or higher is needed with slightly modified
+settings (see configuration files rsyslog-*.conf for details).
 
 
 For implementing Filebeat->Redis->rsyslog->Elasticsearch message flow,
