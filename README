@@ -1,8 +1,13 @@
 This repository provides some example configuration files for combining
 Filebeat, Logstash, rsyslog, Redis, and Elasticsearch, so that messages 
-can be sent from Filebeat to Elasticsearch.
+can be sent from Filebeat to Elasticsearch. The examples have been
+developed for illustrating the discussion in the following paper:
 
-Note that these configuration files have been tested with Elastic Stack 
+Risto Vaarandi and Sten Mases, "How to Build a SOC on a Budget," 
+Proceedings of the 2022 IEEE International Conference on Cyber Security 
+and Resilience, pp. 171-177, 2022 
+
+Note that the configuration files have been tested with Elastic Stack 
 version 7.16.3 and rsyslog version 8.2202.0. For Elastic Stack 8.x,
 rsyslog version 8.2206.0 or higher is needed with slightly modified
 settings (see configuration files rsyslog-*.conf for details).
